@@ -50,7 +50,6 @@ public class CustomDestinationDataProvider
                     //check if all is correct, for example
                     if(p.isEmpty())
                         throw new DataProviderException(DataProviderException.Reason.INVALID_CONFIGURATION, "destination configuration is incorrect", null);
-
                     return p;
                 }
                 
